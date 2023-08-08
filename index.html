@@ -10,6 +10,8 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #121212;
+            color: #ffffff;
         }
         header {
             background-color: #333;
@@ -43,63 +45,78 @@
         .skills-list li {
             margin-bottom: 5px;
         }
+        .img {
+            padding: 15px;
+            border-radius: 50%;
+            height: 250px;
+        }
+        ul.lista {
+            margin-right: 150px;
+            display: flex;
+            list-style: none;
+        }
+        ul.lista li {
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #8EAAFB;
+            text-transform: none;
+            transition: 0.25s ease;
+        }
+        ul.lista:hover a {
+            color: #575757;
+        }
+        ul.lista:hover a:hover {
+            color: #8EAAFB;
+            box-shadow: 0 2px currentColor;
+        }
+        .resumo {
+            text-align: left;
+            display: flexbox;
+        }
+        .sobre {
+            text-align: left;
+            margin-right: 45px;
+        }
     </style>
 </head>
 <body>
     <header>
-        
         <img class="img" src="https://media.licdn.com/dms/image/D4D03AQF0tgxWfigKPQ/profile-displayphoto-shrink_400_400/0/1690471430582?e=1696464000&v=beta&t=cRbT8y3piXpZmBjdT28zAYjkt-Xt4oWSwEPZQAGk6tU" alt="imagem do LinkedIn">
-        <style>
-            .img{
-                padding: 15px;
-                border-radius: 50%;
-                height: 250px;
-            }
-        </style>
         <h1>Thiago Moura Casella</h1>
         <p><strong>Desenvolvedor de Software</strong></p>
         <p>Telefone: (11) 976859789 / Email: thiago.mcasella@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/thiago-casella/" target="_blank">https://www.linkedin.com/in/thiago-casella/</a></p>
+        <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/thiago-casella/" target="_blank">https://www.linkedin.com/in/thiago-casella/</a></i>
+        <i class="fa-brands fa-linkedin-in"></i>
     </header>
     <div class="container">
         <ul class="lista">
-            <li><a href=""><button>sobre mim</button></a></li>
-            <li><a href="Exp_Prof.html"><button>experiencia profisional</button></a></li>
-            <li><a href="TelaContato.html"><button>forma de contato</button></a></li>
-            <li><a href="TelaCertificados.html"><button>formação e certificados</button></a></li>
+            <li><a href="index.html">sobre mim</a></li>
+            <li><a href="Exp_Prof.html">experiencia profisional</a></li>
+            <li><a href="TelaContato.html">forma de contato</a></li>
+            
+            <li><a href="TelaProjetos.html">Projetos</a></li>
         </ul>
         <style>
-           .lista li {
-                margin-right: 20px; 
-            }
             .lista{
-                display: flex;
-            }
-            .container{
+                text-align: center;
                 margin-right: 150px;
             }
         </style>
-       
-   <div class="resumo">
-    <H1><strong>sobre mim</strong></H1>
-
-       <h2>Estagiário de TI no PagSeguro, atuando no setor de sustentação em equipes de requisição e 
-        integração, no departamento de conciliação de dados. Principais atividades desenvolvidas 
-        incluem análise de dados, utilização de Excel avançado, controle de arquivos EDI, inclusão de 
-        novas adquirentes e utilização de API Rest para ativação de fluxo de arquivos EDI. Também 
-        realizei a manutenção de arquivos EDI, controle de volumetria de arquivos EDI e parametrização 
-            de arquivos SFTP no setor de integração. Além disso, criei e mantive dashboards no Power BI, 
-        utilizei Excel VBA e realizei consultas em SQL para extração de volume de dados diários e 
-        manutenção dos arquivos BI.</h2>
-
-
-   </div>
-<style>
-    .resumo{
-        text-align: left;
-    }
-
-</style>
-       
+        <div class="resumo">
+            <h1 class="sobre"><strong>sobre mim</strong></h1>
+            <br><br>
+            <h2>Estagiário de TI no PagSeguro, atuando no setor de sustentação em equipes de requisição e 
+                integração, no departamento de conciliação de dados. Principais atividades desenvolvidas 
+                incluem análise de dados, utilização de Excel avançado, controle de arquivos EDI, inclusão de 
+                novas adquirentes e utilização de API Rest para ativação de fluxo de arquivos EDI. Também 
+                realizei a manutenção de arquivos EDI, controle de volumetria de arquivos EDI e parametrização 
+                de arquivos SFTP no setor de integração. Além disso, criei e mantive dashboards no Power BI, 
+                utilizei Excel VBA e realizei consultas em SQL para extração de volume de dados diários e 
+                manutenção dos arquivos BI.</h2>
+            <img src="" alt="">
+        </div>
+    </div>
 </body>
 </html>
