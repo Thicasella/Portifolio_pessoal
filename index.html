@@ -64,15 +64,15 @@
         }
         a {
             text-decoration: none;
-            color: #8EAAFB;
+            color: black;
             text-transform: none;
             transition: 0.25s ease;
         }
         ul.lista:hover a {
-            color: #575757;
+            color: black;
         }
         ul.lista:hover a:hover {
-            color: #8EAAFB;
+            color: black;
             box-shadow: 0 2px currentColor;
         }
         .resumo {
@@ -114,11 +114,14 @@
             border-radius: 5px;
             height: 350px;
             box-sizing: border-box;
-            border: 10px solid #000;
+            border: 10px solid black;
         }
         .resumo-image img {
   overflow: hidden;
  
+}
+.link{
+    color: blue;
 }
 
 .resumo-image img {
@@ -130,6 +133,15 @@
 .resumo-image img{
   transform: scale(1.0); /* Ajuste o valor para controlar o zoom */
 }
+.SESS{
+    text-align: left;
+            
+            justify-content: space-between;
+            background-color: blue;
+            width: 100%;/* Largura máxima da caixa */
+            justify-content: space-between;
+
+}
     </style>
 </head>
 <body>
@@ -138,14 +150,13 @@
         <h1>Thiago Moura Casella</h1>
         <p><strong>Desenvolvedor de Software</strong></p>
         <p>Telefone: (11) 976859789 / Email: thiago.mcasella@gmail.com</p>
-        <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/thiago-casella/" target="_blank">https://www.linkedin.com/in/thiago-casella/</a></i>
+        <i ><a class="link" href="https://www.linkedin.com/in/thiago-casella/" target="_blank">https://www.linkedin.com/in/thiago-casella/</a></i>
     </header>
-    <section>
+    <section class="SESS">
     <div class="container">
         <ul class="lista">
             <li><a href="index.html"><strong>Sobre Mim</strong></a></li>
             <li><a href="Exp_Prof.html"><strong>Experiência Profissional</strong></a></li>
-            <li><a href="TelaContato.html"><strong>Forma de Contato</strong></a></li>
             <li><a href="TelaProjetos.html"><strong>Projetos</strong></a></li>
         </ul>
     </section>
