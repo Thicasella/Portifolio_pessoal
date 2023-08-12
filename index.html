@@ -18,6 +18,8 @@
             color: #fff;
             text-align: center;
             padding: 1rem 0;
+            
+            
         }
         h1, h2, h3 {
             margin: 0;
@@ -81,11 +83,14 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-         /* Largura total da tela */
-       width: 100%;/* Largura máxima da caixa */
+         
+            width: 100%;/* Largura máxima da caixa */
             display: flex;
             
             justify-content: space-between;
+        }
+        .lista{
+            box-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
         }
         .sobre {
             text-align: left;
@@ -104,13 +109,27 @@
             
         }
         .resumo-image img {
-            max-width: 100%;
-            height: 350px;
+            max-width: 75%;
+            height: 390px;
             border-radius: 5px;
             height: 350px;
             box-sizing: border-box;
             border: 10px solid #000;
         }
+        .resumo-image img {
+  overflow: hidden;
+ 
+}
+
+.resumo-image img {
+ 
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.resumo-image img{
+  transform: scale(1.0); /* Ajuste o valor para controlar o zoom */
+}
     </style>
 </head>
 <body>
@@ -135,14 +154,19 @@
                 <h1><strong>Sobre Mim</strong></h1>
                 <br><br>
                 <div class="resumo-text">
-                    <h2>Estagiário de TI no PagSeguro, atuando no setor de sustentação em equipes de requisição e 
-                        integração, no departamento de conciliação de dados. Principais atividades desenvolvidas 
-                        incluem análise de dados, utilização de Excel avançado, controle de arquivos EDI, inclusão de 
-                        novas adquirentes e utilização de API Rest para ativação de fluxo de arquivos EDI. Também 
-                        realizei a manutenção de arquivos EDI, controle de volumetria de arquivos EDI e parametrização 
-                        de arquivos SFTP no setor de integração. Além disso, criei e mantive dashboards no Power BI, 
-                        utilizei Excel VBA e realizei consultas em SQL para extração de volume de dados diários e 
-                        manutenção dos arquivos BI.</h2>
+                    <h2>Olá, meu nome é Thiago.
+
+                        Sou desenvolvedor de software formado em análise e desenvolvimento de sistemas pela universidade Anhembi Morumbi. <br> <br>
+                        
+                        Desde cedo, descobri minha paixão por aprender e inovar, minha expertise está em desenvolvimento de projetos com Java, mas minha verdadeira paixão é o python. <br> <br>Adoro trabalhar com bancos de dados como Mysql, explorando informações e criando relatórios detalhados. <br> <br>
+                        
+                        Desenvolvi vários projetos, entre eles estão: Encurtador de url, algumas páginas estáticas com HTML e css, gerador de senhas com Python acoplado ao banco de dados armazenando todas as senhas utilizadas pelos usuários. Além disso, tenho em meu portfólio a produção de um site avaliações de jogos com todas as operações CRUD, onde utilizei node.js, Tailwind. Para finalizar elaborei um sistema de desktop de cadastro de produtos totalmente feito com java puro utilizando a IDE netbeans. <br> <br>
+                        
+                        Estou atualmente como estagiário na PagSeguro, mas já liderei uma equipe e juntos conseguimos fazer história nas óticas Gassi, treinei pessoas que se tornaram líderes de setor para outras unidades da ótica. <br> <br>
+                        
+                        Estou trabalho atualmente em minhas habilidades back-end e desenvolvimento de automação com python, estou aberto as novas oportunidades com desenvolvedor. <br> <br>
+                        
+                        Se você está procurando um profissional apaixonado por desafios, inovação e compartilhamento de conhecimento, estou pronto para trazer resultados excepcionais à sua equipe. Vamos juntos alcançar novos patamares!</h2>
                 </div>
             </div>
             <div class="resumo-image">

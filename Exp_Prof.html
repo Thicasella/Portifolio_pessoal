@@ -79,6 +79,29 @@
             text-align: left;
             margin-right: 45px;
         }
+        ul.lista {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        ul.lista li {
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #8EAAFB;
+            text-transform: none;
+            transition: 0.25s ease;
+        }
+        ul.lista:hover a {
+            color: #575757;
+        }
+        ul.lista:hover a:hover {
+            color: #8EAAFB;
+            box-shadow: 0 2px currentColor;
+        }
     </style>
 </head>
 <body>
@@ -92,50 +115,140 @@
     </header>
     <div class="container">
         <ul class="lista">
-            <li><a href="index.html">sobre mim</a></li>
-            <li><a href="Exp_Prof.html">experiencia profisional</a></li>
-            <li><a href="TelaContato.html">forma de contato</a></li>
+            <li><a href="index.html"><strong>sobre mim</strong></a></li>
+            <li><a href="Exp_Prof.html"><strong>experiencia profisional</strong></a></li>
+            <li><a href="TelaContato.html"><strong>forma de contato</strong></a></li>
             
-            <li><a href="TelaProjetos.html">Projetos</a></li>
+            <li><a href="TelaProjetos.html"><strong>Projetos</strong></a></li>
         </ul>
         <style>
             .lista{
                 text-align: center;
                 margin-right: 150px;
             }
+            .pags  {
+            text-align: left;
+            
+            justify-content: space-between;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+         
+            width: 100%;/* Largura máxima da caixa */
+            display: flex;
+            
+            justify-content: space-between;
+        }
+        ul.lista {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        ul.lista li {
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #8EAAFB;
+            text-transform: none;
+            transition: 0.25s ease;
+        }
+        ul.lista:hover a {
+            color: #575757;
+        }
+        ul.lista:hover a:hover {
+            color: #8EAAFB;
+            box-shadow: 0 2px currentColor;
+        }
+        .esqueda{
+            text-align: left;
+            
+            justify-content: space-between;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+         
+            width: 100%;/* Largura máxima da caixa */
+            display: flex;
+            
+            justify-content: space-between;
+        }
         </style>
        
             <div>
                 <br></br>
                 <h4><strong>Experiencia profissional</strong></h4>
                
+               <section>
                 <div class="pags">
-                    <p>Óticas Gassi – (julho/2020 – fevereiro/2022) Auxiliar Administrativo - Atividades desenvolvidas: 
-                        Excel avançado, liderança e habilidades em Office 365 com destaque na resolução eficiente de 
-                        problemas.</p>
-                    <img src="fotopags.jpeg" alt="Minha Imagem">
+                    <p>Pagsseguros – (maio/2022 – dezembro/2023) Estagiário no setor de sustentação, onde passei pelos equipes de requisição e integração, no departamento de conciliação de dados.
+                        Principais atividades desenvolvidas no setor de requisição:
+                        <br>
+                        <br>
+                        • Análise de dados
+                        <br>
+                        • Excel avançado
+
+                        <br>
+                        • controle de arquivos EDI
+                        <br>
+                        • inclusão de novas adquirentes
+                        <br>
+                        • utilização de API para ativação de fluxo de arquivos EDI
+                        
+                        <br>
+                        • analise e atualização de chamados pelo jira e movidesk
+                        <br>
+                        <br>
+                        Principais atividades desenvolvidas no setor de integração:
+                        <br>
+                        <br>
+                        • Power BI – criação e manutenção de dashboards
+                        <br>
+                        • Excel VBA
+                        <br> 
+                        • manutenção de arquivos EDI
+                        <br>
+                        • controle de volume de arquivos EDI
+                        <br>
+                        • parametrização de arquivos sftp
+                        <br>
+                        • reprocessamento de dados
+                        <br>
+                        • consultas em SQL para extração de volume de dados diários e manutenção dos arquivos BI com os dados.</p>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABHVBMVEX///8BAQEAAACM3Nrb5FT64RuNjo5UVFT39/fe51WP4d86Ojvn8Fn5+fnj4+Pw8PCV6eeXl5fp6enExMTe3t6xsbHX19eenp66urq4uLiqqqp4eHjMzMz/7B3/5xytskNpaWmFhoakpKQyMjInKChBQUEaGxtKSkphYWFtbW0kJSWSkpIUFRVWVlZ3ey6eoz26wUjR11EYGgp8xMJsq6mDzctimZhXiYgVISFBQxkvSUlQfn2bkxMREgYgIw0tLxFscCpPUR5dXySJjjVzdi1gYiVTVSBFbGw8X187PRfCyUuXmzuyuEYbKChmnp0rKxInPDthXw2sohXZyRlDQwro2hx0cBCEgBBXVQ7Mvhh6dQ+9rxWxqRc7OQc+YmGJXzDeAAAPTElEQVR4nO1caUMbNxMGATa+L3xgG+MLsMEQ7qQkhJAeSZo0paRJm17//2e8K2lGGu0pAiRtXj1fEnt3tXo0p0Zj5uYcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHG6HQqlaLRW+9CzuByv1we42A2zvDuorX3pGd4nqcJeFYLdd/dIzuxOUhjnC6vzp03PyMdcufen53RatNHC52Huwf7CYF1g82H+wdwEX0q0vPcdboFABFs/WF/OZTGZRwfuQX1x/Bpcr/1HfU0jJ+V+u5/OEHKGZz69fyntS/0WOQxDfQTg9JHkAghzajlvZShvop7r3SSMSDS8yzDP2PJYfcHwubh037EYehXhl6+W5OwzEpA/3k/hJjvuH4vaB1dDerX4wNvrMLrkoBbhnw09y3BMPbFvEx0aQoOC4fP+0NFb5MjO2n7fjx5Hfl8+sJg4+ZEAJgBQ3PgMxxEBM9mLRUoAgxsULQTGVNHqfSYJNjkFOU/x8YbUvCF7aaqjW1EtBsZ8w/KZkuA0fi1tAkeXumZdCmr+RfX8DDUXkn4tH07HDl6TQ2FR9M2Gf1xLFkrLnn0BQUdyKG78GfNrqmwIoKgtEm0arXakM67WVcO6lbqvdbre6xRtlG1KCl59E0KN4mSjFnSCdNHxlBP5iheb7bOKPmK0puTrfH9qynIoZ/vyJBD1jfMpMFQxfQk8lyVeTIOlWjrhZcf+8Qb/jv0zHi0NFzI8d3NDJEIYH4sWsEvkKMEPqVkZAWgX97pj50wLW0feX+sHLu3YEazKmvflkgh7FdTlGVKpZBIY0/WE+sU7RMEm8ZHV1+5DR63A5ekkppJtjzz5ZRznyz5gpEBOrMLnV4FcT+bE6Q8YsnWpWduGqqpmk1eVxp5LaDbPhSGzIud1CgkKKcp0iUpQBTK+ov0KJyIjfUAKSvqVlCnh5Ey8PRIZYZDeINE158/ptGa7LcZqhL8n5Hc3yCKcsPq4gwQk4x458ANxzYQaXc5AByxyQjW0IVuXaf3MrHeXIv4rRU1CxCb60oixJ6O0yEtzBByAF2qELNK8TJ+mHqR+KBrjxH28pQk+I+8ayG4CNBdsdNps7g8m2dhWSM6RwOrtdhi9q4tPANFm9YvW5ZMhcI1yEGV6VkTCKNVFC/IZFWX8bCYXvLOrAIO2flrQzsFGik6DU1KwjsS1v3Q8Q8LgdrH/77PLi/Pzw4ofvXr85iKja6CfeRBrHNGJz2DckQvxGiubpGDg1n3Ywf4iCdNns0CfCTH7xwff+ksP5d+uZWJL5c6ZNy8AsbH/PZi06XyO4bRA7w5SWGJ1cMat4DyJ8bUw8k3/zQ0hRRdSn4uobmdcRQlz2KynH1qpvEqxAHiB2hgkfKSTAZYt4j+p+YPB7ANXtRy9Oj49OFhZOTo6OH76EiV2sR3KE3A39g0YXff2uQHrSqdS0Rq4EZYTZwAphS7Yu6Lgs4r30YexVnvBbl0v98nihnM1mFwS8/5TLJ6dnkmNkmUMGjOA+qhI7I6xvkHXZJXbWCuy7VP6QHO8xW9RKmj94xUnMTj16C35kywsPBcfnEZWOzLdBhaITDp8R1jd0IK0yEngGRJ4AuDxKJAgeiwTD/Guhncch9FCYp4Ljm1AxZn70B25jRtvhswBXSfZJHTrMbsBKV4NqHQX00kAwkxEO5jSSn+T4mN+0F06RBWY7x0UiZxSxfQxIpMqo3o4DkQFz1OR4jwYL4T5z8NSb+tlCHD+O8slP3n2h9QAI+oZKhVpSCEO9dUyj6y2Ry3rRmng5Od6jA9jLoCfkAkzgJzi+4A4nxBgze8HQpi0povzvp9BU2wx6WclwxbwcC8xnH2QUwSMbgh7Ft969P4cwfA1DGpuojfgMBGcMImlhVgdp6Ia5PlWV0ibHe1Xs4pt7SfAkSUMVxWPv7lcBRYXEzfALoRUMCqxIyazU23XMYOsk83B0O1smf5t438XF4K40w20w0QQ1skc8avgpojM1Qh9G9KgDHGVX4+ZqhW87uht059BFRpuVdopXciYsMsOPGvkgs5j/4SYSVFL8NsMzdL3v8DQBxiQbYUw7o1zfstI7IR9vJUwKG+blLUzEkguJfXxS2I9ngzcg6AX/4ysmX/rNHj8LB444JokMHdPOopdaTnwKJQrlkEukwsY8XR5Yx/uxYiiM0MqLIr/jM7GeCpdvgCOOSd6P3TjRM+kQKVZE7U8Ak5wSKRIPVYZgcWqphuVhjJ3ZEywfz/CFh4f4v6frecpQ8ynBDXHHaKu4WBMu6CZ80ElebcqXadyvz+kTkGQzLKmN9uI69zLWAjy5Eu//5frd0pqHpXfXv0s5evZ8oAa94eFudzgYVFo2pbO69e53RU3mwBPE6Y3iBDu/XlrrLQF6a0vXkK1qhvfWHAZlu5gTBERXTeaZF4JsdbQsstJrTQ9JPuHfv/5RDXpfjRZdayXFbJHfPc+OLUXo5Wvz7Nf3Pn6C4/u/uV9VDP274LvCLLIYFMAq9cGWIizz/eGHtSA/jrVfPPZqyOST/U8CJkA2Z+OUoaUVZrkN/hZB0KP4gQx5RwyrxjhVTKWt+hvqer2tHSl3oZEEPYq/37kMV9ks1ZUuttDVp1NYRFiZdjjC3Q6xQ8tYWH7p7ZliCHrGeKjs8I5aLODId7SRm9c5tzbyobwcXj2oaYZvrZRUJNvv4wgu9d6pNOKOfKk8VZFQKqdXD2o84fWMhn7ixE6EZ3FG6DNFst2djnIUW9OmZSfcHAna2qLYmITaGd2F+FHUDO2UlIswnp+H96hJutzGgphFFDQCqDMlP/jPiLLBDC48vSgohXppxZBXoH4LCYShQiRJVZX55cAv52ybKLqVySbS3OwPTS41/8tM4GECe2hlhmXvFe8SZdj7KF+6qV6DdSjDliJLi+EoVYvFakimKytNkbFDlbTsHM2Jl40mWKEQovQN+qAMC9SKJrw1sRPOArvxG6kBvssqZcu+ZeyPRCWVmY0x/w1adJlrdJTLvwOGsG5RsReTGnZkI0JuhtcWDHtPmBkOYRbqixpSvP3uA0vNUdWDKjK0ChZZL9x/tGH4JzNc6Qqop/at2At1+4jZinc0c3OQJ9sxLF/ZOBpwNWymXhI8rsVCdCAqrqxWBp3OYKddU0IpLAuI/5daFW+XTPcsYOLa5pcR8LlzI4Y/JSU0gHfMSDKg9knKt9jEZ/rG1sSImBsyYsKvkjzG3S28pOukYOI7+rNEDhni8bGVHVrLUDDUKw0HvKR8u+uPJ97ap2gkETKXnmnMQAE6JGlTMvMdyGLTTl8PDHdY+VKes9lqKdHJQuBYGPMQwrnJAlkBPCBDTw57vuAaFGNNEy9gQwONHZC3WsXD7AvG/rTxNNeMdPZArYQefwbOA6vjYMsePADNXYOOkS/gAho1qQJ2AxjFfkh6HlsxPGXsiQ3D3xiVGPSUKc+zjH0HNT0JJJWr1Lq1PtVhcJa8Xjpo1ZpYQoDwACYuDnCg8Y35k3CpBFbbQ753+tUmp3lqtL1OaGWsVOtgbqNS7zp+k5bxcUD3Q3guh91QeDYqAw2cnXKdLc38CweA1lm77aHN1oJvLoxDC5KtkU3CpooULeZbe5i2XAE8WUPf0qYMsUmjqw/+gxFI3mTpTM9skpoeryrqwq7KKrQdMbalNanon5q5H8KraLPYtrKiP3CLVQRDkhuhBnabC16Giq9hCCU9N5yZLiQoR8gGJBCi9XTNB1RPpnyk4htOMh6ixeIyzcLq7GLJ2CO7DSJL9qa9a0OEqtvDkCGbokwqfgrY0CaPQ+tKSoAmdUNYwUAJjsK3nClhGHa5t+dNDxOE2PPmT1tNoCVpNPGQ3lQc5+Wc0ZJIeddIUzr+7Z/RVgoPo/OK/LmHEOILOyHOJxVqvB2+mQcz6jfmSm2MDCNDhNoBmgnC2Nh4zWEmLYcrKfUQ//SjCIqQY1kwFQXhOD3t/cWYUUZEQ1IubhnbmcVd4OLJdr9m6KV/44VuqEFuxQb4mPosVyS7oC+7TN5FUvQSNma2CAdPwtBXTAh/Elw6NEHAfp+q+TAMtwPxPpW0hRILY1v15huMSIprnKDZuwYTJl0YaHrcWQz9ElZSkwkCOEudP+zQ4SD7S6Fix5wJ86BrWW9bWOB6/1eoLa6JM0Sz1B08kEaGfMmngdXHiC7tdkqyMoE0HU6pMBaCYn7I2uFCtD1f4wfcvywFxNh7/ztfKLP4XAjaSJG4z5wvZ9XNQ1Kqmzoro5flcEWlwviWuA6iHLNN3Tx3I864n/ToGWlvbYmnMoGyHmYdJNVoEzuc+XW4ie5RfAoc2BehxC+GIxWMHX/aEARXHetWBXkKzP74uLbWE1jrffwACacv5g6DTgB9Kf9lDPh+1bahehLlQhn9+j5SKkMXgovv7lRjs8e2FI9kqwL79cMTDx/+hmwlaAn9gPqoH45WFVu9AGqfKA2t4p+3UZahqUGTLFsUeMOffUeNaKchGwaYdaA86N/NN3KYiE/1JFXA32AMPJPMzHdpAuMnZVYw/Bl6GBp8pm9tKWbLC9u+nDpk54KGVK8Wi8VGa2ekN+kFLRN4sua5sNQGtTwzH/KRwlgpUwOMO7Fdwyucor0UXwQIBgu8NUXIELZS54b6PBNdT5vIQVzGcm9Dz1DeLEj5ipQx2ycN/gNAS1vMZs/8BGch0WjHdxPyyeFegfbk8amv0GkHyr11GlxoBWNO/64o9tfWstx4ZdGBWT7y/QaGhY+cDjAUktLRkRy8MS7YVZrEpPyxxCA19pk4+uiEJhdR0jpOEGOWhwvfvMPPkVgQo4FhrcUZ1jWE74E/jCO9J7Tr6XxoLL8QCcAyjKdC4Cq+IZ6hPHI9O4nhmBVtez65hIfa0iBFsFNptxpBX9cWdertgTCgurxVCkb+n6yIHG4g7L0IH8hvweD+pNOQovgrMi+PIn6Q4PG7CgjQosMsFqXP/IfgZOvj1XE2QNILEaePAvxs/wDPvwglKDCfnR6V+S+fJMrZo4dXLMDP6lec/z6UBmi2P/3z+PT07enDx/88IvFM0bNuqfgXoo5/rs0frYnbT99X++FnQrU5ChJT7Nio+TX8ZcFqu+9PtyT69a+BHqBaq0y3dGa5Na3UviJ2BF/z3y91cHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBw+H/B/wCf7Uwj+FG/YgAAAABJRU5ErkJggg==" alt="Minha Imagem">
                   </div>
+               </section>
         <style>
             .pags {
               display: grid;
               grid-template-columns: 1fr auto; /* Define duas colunas, uma para o texto e outra para a imagem */
               align-items: center; /* Centraliza verticalmente */
               gap: 10px; /* Espaçamento entre elementos */
+              border: 10px white;
             }
             img{
                 height: 400px;
-                
+                border-radius: 50%;
+                border: 10px #fff;
+                box-sizing: border-box;
             }
             
                   </style>
                   <br></br>
 
+   <section>
     <div class="esqueda">
         <p>Óticas Gassi – (julho/2020 – fevereiro/2022) Auxiliar Administrativo - Atividades desenvolvidas: 
             Excel avançado, liderança e habilidades em Office 365 com destaque na resolução eficiente de 
             problemas.</p>
-        <img src="gassi.png" alt="Minha Imagem">
+        <img src="https://www.oticasgassi.com.br/assets/image/logo/logo-oticas-gassi-otica-online.png" alt="Minha Imagem">
       </div>
+   </section>
       <style>
 .esqueda {
   display: grid;
@@ -166,6 +279,10 @@ img{
                 <li>Git e github</li>
             </ul>
            </div>
+
+           <section>
+            <h4><strong>Idiomas</strong></h4>
+           </section>
         </div>
     </div>
 </body>
