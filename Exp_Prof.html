@@ -227,7 +227,7 @@
               grid-template-columns: 1fr auto; /* Define duas colunas, uma para o texto e outra para a imagem */
               align-items: center; /* Centraliza verticalmente */
               gap: 10px; /* Espaçamento entre elementos */
-              border: 10px white;
+              border: 25px white;
             }
             img{
                 height: 400px;
@@ -257,29 +257,98 @@
 img{
     height: 150px;
 }
+.certificados{
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+   background-color: #333;
+}
+.idiomas{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+   background-color: #333;
 
-      </style>
-      
+}
+.column {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 
-           <div>
-            <h4><strong>Certificados e conpetencias</strong></h4>
+  .certificados {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+  }
 
-            <ul>
-                <li>Comunicação e oratória</li>
-                <li>Liderança</li>
-                <li>Análise de sistemas</li>
-                <li>Desenvolvimento Java</li>
-                <li>HTML E CSS</li>
-                <li>Angular</li>
-                <li>SQL SERVER</li>
-                <li>Análise de dados </li>
-                <li>Myslq</li>
-                <li>Git e github</li>
-            </ul>
-           </div>
+  .colum {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 
-           <section>
-            <h4><strong>Idiomas</strong></h4>
+  h4 {
+    font-size: 24px;
+  }
+
+  .colum ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .colum ul li {
+    margin: 10px 0;
+  }
+</style>
+</head>
+<body>
+
+<h4><strong>Certificados e Competências</strong></h4>
+<section class="certificados">
+    <div class="colum">
+        <ul>
+            <li>Comunicação e Oratória</li>
+            <li>Liderança</li>
+            <li>Análise de Sistemas</li>
+            <li>Desenvolvimento Java</li>
+            <li>HTML e CSS</li>
+            <li>Angular</li>
+            <li>SQL Server</li>
+            <li>Análise de Dados</li>
+            <li>MySQL</li>
+            <li>Git e GitHub</li>
+        </ul>
+    </div>
+    <div class="colum">
+        <ul>
+            <li>Python</li>
+            <li>Spring Boot</li>
+            <li>Micro Serviços</li>
+            <li>DDD - Domain-Driven Design</li>
+            <li>Flask</li>
+            <li>SQL Server</li>
+            <li>C#</li>
+            <li>.NET</li>
+        </ul>
+    </div>
+           
+               
+        </section>
+
+           
+            <h4 ><strong>Idiomas</strong></h4>
+            <section class="idiomas">
+                <div>
+                    <strong>Ingles - Avançado 
+                        <br> Intercambio de 6 meses em melbourne, australia.
+                    </strong>
+                </div>
+                <br>
+                <div>
+                    <strong>Alemão - basico
+                        <br> UDAMY - Curso de basico ao avançado de alemão
+                    </strong>
+                </div>
            </section>
         </div>
     </div>
