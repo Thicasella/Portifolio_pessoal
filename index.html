@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiago Moura Casella - Desenvolvedor de Software</title>
     <style>
-       body {
+        body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: black;
+            background-color: #121212;
             color: #ffffff;
         }
         header {
             background-color: #333;
             color: #fff;
             text-align: center;
-            width: 100%; /* Set width to 100% */
-            margin: 0; /* Remove margin */
+            padding: 1rem 0;
         }
         h1, h2, h3 {
             margin: 0;
         }
         .container {
-            max-width: 100%;
-            margin: 0;
-            padding: 0;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
         }
         .section-heading {
             margin-top: 30px;
@@ -50,7 +50,6 @@
             padding: 15px;
             border-radius: 50%;
             height: 250px;
-          
         }
         ul.lista {
             margin: 0;
@@ -58,97 +57,65 @@
             display: flex;
             justify-content: center;
             list-style: none;
-            margin-top: 35px;
-            background-color: black;
         }
         ul.lista li {
             margin-right: 20px;
-            color: #121212;
+            text-align: center;
         }
         a {
             text-decoration: none;
-            color:#8EAAFB;
+            color: #8EAAFB;
             text-transform: none;
             transition: 0.25s ease;
-            margin-top: 10px;
-            
         }
         ul.lista:hover a {
-            color: white;
+            color: #575757;
         }
         ul.lista:hover a:hover {
-            color: blue;
+            color: #8EAAFB;
             box-shadow: 0 2px currentColor;
         }
         .resumo {
-            text-align: left;
-            
+            display: flex;
             justify-content: space-between;
             background-color: #333;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-         
-            width: 100%;/* Largura máxima da caixa */
-            display: flex;
-            
-            justify-content: space-between;
-        }
-        .lista{
-            box-shadow:0px 0px 10px rgba(0, 0, 0, 0.962);
-            margin-top: 10px;
-            color: #121212;
         }
         .sobre {
-            text-align: left;
-            
             flex: 2;
+            margin-right: 45px;
         }
         .resumo-text {
             color: #fff;
-            font-size: 10px; /* Tamanho de fonte menor */
-            line-height: 1.4; /* Espaçamento entre linhas */
+            font-size: 16px;
+            line-height: 1.4;
         }
         .resumo-image {
             flex: 1;
             text-align: center;
-            
-            
         }
         .resumo-image img {
-            max-width: 75%;
-            height: 390px;
+            max-width: 100%;
+            height: auto;
             border-radius: 5px;
-            height: 350px;
             box-sizing: border-box;
             border: 10px solid black;
+            transition: transform 0.3s ease;
         }
-        .resumo-image img {
-  overflow: hidden;
- 
-}
-.link{
-    color: blue;
-}
-
-.resumo-image img {
- 
-  height: 100%;
-  transition: transform 0.3s ease;
-}
-
-.resumo-image img{
-  transform: scale(1.0); /* Ajuste o valor para controlar o zoom */
-}
-.SESS{
-    text-align: left;
-            
-            justify-content: space-between;
-            background-color: blue;
-            width: 100%;/* Largura máxima da caixa */
-            justify-content: space-between;
-
-}
+        .resumo-image img:hover {
+            transform: scale(1.1);
+        }
+        .resumo-text{
+            font-size: 7px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
 
     </style>
 </head>
@@ -159,25 +126,22 @@
         <p><strong>Desenvolvedor de Software</strong></p>
         <p>Telefone: (11) 976859789 / Email: thiago.mcasella@gmail.com</p>
         <i ><a class="link" href="https://www.linkedin.com/in/thiago-casella/" target="_blank">https://www.linkedin.com/in/thiago-casella/</a></i>
-   
-    
+    </header>
     <div class="container">
         <ul class="lista">
             <li><a href="index.html"><strong>Sobre Mim</strong></a></li>
             <li><a href="Exp_Prof.html"><strong>Experiência Profissional</strong></a></li>
             <li><a href="TelaProjetos.html"><strong>Projetos</strong></a></li>
         </ul>
-    </section>
         <div class="resumo">
             <div class="sobre">
                 <h1><strong>Sobre Mim</strong></h1>
-                <br><br>
                 <div class="resumo-text">
                     <h2>Olá, meu nome é Thiago.
 
                         Sou desenvolvedor de software formado em análise e desenvolvimento de sistemas pela universidade Anhembi Morumbi. <br> <br>
                         
-                        Desde cedo, desenvolvi habilidades em projetos com Java e me destaquei na utilização versátil do Python. Tenho experiência em explorar dados e gerar relatórios detalhados através do Mysql. <br> <br> <br> <br>
+                        Desde cedo, desenvolvi habilidades em projetos com Java e me destaquei na utilização versátil do Python. Tenho experiência em explorar dados e gerar relatórios detalhados através do Mysql. <br> <br>
                         
                         Desenvolvi vários projetos, entre eles estão: Encurtador de url, algumas páginas estáticas com HTML e css, gerador de senhas com Python acoplado ao banco de dados armazenando todas as senhas utilizadas pelos usuários. Além disso, tenho em meu portfólio a produção de um site avaliações de jogos com todas as operações CRUD, onde utilizei node.js, Tailwind. Para finalizar elaborei um sistema de desktop de cadastro de produtos totalmente feito com java puro utilizando a IDE netbeans. <br> <br>
                         
