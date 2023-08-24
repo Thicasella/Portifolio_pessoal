@@ -9,7 +9,7 @@
 	--cor-primaria: #333333;
 	--cor-secundaria: #ffffff;
 	--cor-terciaria: #121212;
-    --cor-quartenaria: #8EAAFB;
+    	--cor-quartenaria: #8EAAFB;
 	--font-primaria: 'Roboto', sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
 }
 
 .img-profile{
@@ -95,6 +95,12 @@ body {
     flex-direction: column;
 }
 
+.container-img {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
 .ul {
     padding: 2rem;
     line-height: 1.5rem;
@@ -136,4 +142,40 @@ body {
     margin-top: 2rem;
     padding: 1rem;
     text-align: center;
+}
+
+@media (max-width: 1500px)
+{
+  
+}
+@media (max-width: 1300px)
+{
+  
+}
+@media (max-width: 1070px)
+{
+  .section-main {
+    display: grid;
+    flex-direction: column;
+    width: 80%;
+  }
+  .container-img {
+    align-items: center;
+  }
+}
+@media (max-width: 900px)
+{
+  .section-main {
+    width: 80%;
+  }
+}
+@media (max-width: 480px)
+{
+    .span {
+        display: block;
+        position: relative;
+        line-height: 2rem;
+        text-align: center;
+        text-decoration: none;
+    }
 }
