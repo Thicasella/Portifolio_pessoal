@@ -4,347 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiago Moura Casella - Desenvolvedor de Software</title>
-    <style>
-      body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #ffffff;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-        }
-        h1, h2, h3 {
-            margin: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .section-heading {
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-        .experience-item {
-            margin-bottom: 20px;
-        }
-        .education-item {
-            margin-bottom: 10px;
-        }
-        .skills-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .skills-list li {
-            margin-bottom: 5px;
-        }
-        .img {
-            padding: 15px;
-            border-radius: 50%;
-            height: 250px;
-        }
-        ul.lista {
-            margin-right: 150px;
-            display: flex;
-            list-style: none;
-        }
-        ul.lista li {
-            margin-right: 20px;
-        }
-        a {
-            text-decoration: none;
-            color: #8EAAFB;
-            text-transform: none;
-            transition: 0.25s ease;
-        }
-        ul.lista:hover a {
-            color: #575757;
-        }
-        ul.lista:hover a:hover {
-            color: #8EAAFB;
-            box-shadow: 0 2px currentColor;
-        }
-        .resumo {
-            text-align: left;
-            display: flexbox;
-        }
-        .sobre {
-            text-align: left;
-            margin-right: 45px;
-        }
-        
-        .resumo{
-            text-align: left;
-            
-            justify-content: space-between;
-            background-color: #333;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-         
-            width: 100%;/* Largura máxima da caixa */
-            display: flex;
-            
-            justify-content: space-between;
-        }
-        ul.lista {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            margin-top: 10px;
-        }
-        ul.lista li {
-            margin-right: 20px;
-        }
-        a {
-            text-decoration: none;
-            color: #8EAAFB;
-            text-transform: none;
-            transition: 0.25s ease;
-        }
-        ul.lista:hover a {
-            color: #575757;
-            
-        }
-        ul.lista:hover a:hover {
-            color: #8EAAFB;
-            box-shadow: 0 2px currentColor;
-            
-        }
-        .img-profile{
-             border-radius: 10rem;
-                width: 15rem;
-                    }
-
-.bi-linkedin {
-    color:#0066d3;
-}
-
-        section{
-            text-align: left;
-            
-            justify-content: space-between;
-            background-color: #333;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-         
-            width: 100%;/* Largura máxima da caixa */
-            
-            
-            justify-content: space-between;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img class="img" src="https://media.licdn.com/dms/image/D4D03AQF0tgxWfigKPQ/profile-displayphoto-shrink_400_400/0/1690471430582?e=1696464000&v=beta&t=cRbT8y3piXpZmBjdT28zAYjkt-Xt4oWSwEPZQAGk6tU" alt="imagem do LinkedIn">
-        <h1>Thiago Moura Casella</h1>
-        <p><strong>Desenvolvedor de Software</strong></p>
-        <p>Telefone: (11) 976859789 / Email: thiago.mcasella@gmail.com</p>
-        <a href="https://www.linkedin.com/in/thiago-casella/"><i class="bi-linkedin"></i></a>
+    <header class="header">
+        <section class="section-profile">
+            <img class="img-profile" src="https://media.licdn.com/dms/image/D4D03AQF0tgxWfigKPQ/profile-displayphoto-shrink_400_400/0/1690471430582?e=1696464000&v=beta&t=cRbT8y3piXpZmBjdT28zAYjkt-Xt4oWSwEPZQAGk6tU" alt="imagem do LinkedIn">
+            <h1>Thiago Moura Casella</h1>
+            <p>Desenvolvedor de Software</p>
+            <p>Telefone: (11) 976859789 / Email: thiago.mcasella@gmail.com</p>
+            <a href="https://www.linkedin.com/in/thiago-casella/"><i class="bi bi-linkedin"></i></a>
+        </section>
+        <nav class="nav">
+            <a class="nav-link" href="index.html">Sobre Mim</a>
+            <a class="nav-link" href="Exp_Prof.html">Experiência Profisional</a>
+            <a class="nav-link" href="TelaProjetos.html">Projetos</a>
+        </nav>
     </header>
-    <div class="container">
-        <ul class="lista">
-            <li><a href="index.html"><strong>Sobre mim</strong></a></li>
-            <li><a href="Exp_Prof.html"><strong>Experiencia profisional</strong></a></li>
-            <li><a href="TelaProjetos.html"><strong>Projetos</strong></a></li>
-        </ul>
-        <style>
-            .lista{
-                text-align: center;
-                margin-right: 150px;
-                
-            }
-            
-            img{
-                height: 50px ;
-
-            }
-            .titulo{
-                text-align: center;
-                margin-top: 25px;
-            }
-           
-       
-        </style>
-        
-          <div><h1 class="titulo
-            "><STROng>Projetos</STROng></h1></div>
-            
-        
-        <section>
-            <h2><strong>Encurtador de URL</strong></h2>
-            <p>Um encurtador de URL feito com Python, HTML e CSS. <br> Para fazer a parte inteligente do site, utilizei o <br>framework Flask. O Flask é um framework de desenvolvimento web em Python que é usado para <br>criar aplicativos web e APIs de forma rápida e eficiente. Ele é projetado para ser simples.</p>
-
-            <a href="https://github.com/Thicasella/encurtador_"><strong>link do repositorio do github</strong></a>
-            
-                   <ul class="icone">  
-                <li>
-                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" alt="link do repositorio do github">
-                </li>                 
-                <li>
-                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="icone html">
-                </li>
-                <li>
-                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="icone css">
-                </li>
-                <li>
-                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/141_Git_logo_logos-64.png" alt="">
-                </li>
-            </ul>
+    <main class="main">
+        <section class="section">
+            <h2>Projetos</h2>
+            <h3>Encurtador de URL</h3>
+                <p>Um encurtador de URL feito com Python, HTML e CSS. Para fazer a parte inteligente do site, utilizei o framework Flask. O Flask é um framework de desenvolvimento web em Python que é usado para criar aplicativos web e APIs de forma rápida e eficiente. Ele é projetado para ser simples.</p>
+                <a class="link" href="https://github.com/Thicasella/encurtador_">link do repositorio do github</a>
+            <div class="container-icon">
+                <img class="img-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" alt="link do repositorio do github">
+                <img class="img-icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="icone html">
+                <img class="img-icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="icone css">
+                <img class="img-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/141_Git_logo_logos-64.png" alt="">
+            </div>
         </section>
-        <style>
-             .icone {
-            height: 150px;
-            list-style: none;
-            padding: 0;
-            display: flex; /* Aplica um layout flexível */
-            justify-content: left; /* Alinha os itens horizontalmente no centro */
-            align-items: center; /* Alinha os itens verticalmente no centro */
-            margin-top: 20px; /* Adiciona margem acima das imagens */
-        }
-        
-        .icone li {
-            
-            margin: 0 20px; /* Adiciona margem entre os itens */
-            max-width: 40px;
-        }
-        </style>
+        <section class="section">
+            <h3>Gerador de senhas</h3>
+                <p>Um gerador de senhas, feito com python ultilizando fraamework flask e aclopado com banco de dados Msql, possibilitando salvar todas as senhas geradas</p>
+                <a class="link" href="https://github.com/Thicasella/gerador-de-senhas">link do repositorio do github</a>
+            <div class="container-icon">
+                <img class="img-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" alt="link do repositorio do github">
+                <img class="img-icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="icone html">
+                <img class="img-icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="icone css">
+                <img class="img-icon" src="https://cdn1.iconfinder.com/data/icons/programming-3/24/MySql-2-256.png" alt=""> 
+            </div>
         </section>
-        <section>
-            <h2><strong>Gerador de senhas</strong></h2>
-            <p>Um gerador de senhas. <br> feito com python ultilizando fraamework flask e aclopado com banco de dados Msql, possibilitando salvar todas as senhas geradas</p>
-
-            <a href="https://github.com/Thicasella/gerador-de-senhas"><strong>link do repositorio do github</strong></a>
-            
-                   <ul class="icone">  
-                <li>
-                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" alt="link do repositorio do github">
-                </li>                 
-                <li>
-                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="icone html">
-                </li>
-                <li>
-                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="icone css">
-                </li>
-                <li>
-                    <img src="https://cdn1.iconfinder.com/data/icons/programming-3/24/MySql-2-256.png" alt="">
-                </li>
-            </ul>
+        <section class="section">
+            <h3>Site de avaliações de jogos</h3>
+                <p>Desenvolvemos um site de resenha de jogos, onde os usuários cadastrados podem acessar diferentes resenhas e reagir a elas registrando comentários.</p>
+                <a class="link" href="https://github.com/adamcy11/Trabalho_Usabildade">link do repositorio do github</a>
+            <div class="container-icon">
+                <img class="img-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-256.png" alt="link do repositorio do github">
+                <img class="img-icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="icone html">
+                <img class="img-icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="icone css">
+                <img class="img-icon" src="https://cdn0.iconfinder.com/data/icons/file-format-database-j-fill/64/database_file_document-56-256.png" alt="">
+                <img class="img-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-256.png" alt="">
+            </div>
         </section>
-        <style>
-             .icone {
-            height: 150px;
-            list-style: none;
-            padding: 0;
-            display: flex; /* Aplica um layout flexível */
-            justify-content: left; /* Alinha os itens horizontalmente no centro */
-            align-items: center; /* Alinha os itens verticalmente no centro */
-            margin-top: 20px; /* Adiciona margem acima das imagens */
-        }
-        
-        .icone li {
-            
-            margin: 0 20px; /* Adiciona margem entre os itens */
-            max-width: 40px;
-        }
-        </style>
-        </section>
-    </section>
-    <section>
-        <h2><strong>Site de avaliações de jogos</strong></h2>
-        <p> <br> Desenvolvemos um site de resenha de jogos, onde os usuários cadastrados podem acessar diferentes resenhas e reagir a elas registrando comentários.</p>
-
-        <a href="https://github.com/adamcy11/Trabalho_Usabildade"><strong>link do repositorio do github</strong></a>
-        
-               <ul class="icone">  
-            <li>
-                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-256.png" alt="link do repositorio do github">
-            </li>                 
-            <li>
-                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="icone html">
-            </li>
-            <li>
-                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="icone css">
-            </li>
-            <li>
-                <img src="https://cdn0.iconfinder.com/data/icons/file-format-database-j-fill/64/database_file_document-56-256.png" alt="">
-            </li>
-            <li>
-                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-256.png" alt="">
-            </li>
-        </ul>
-    </section>
-    <style>
-         .icone {
-        height: 150px;
-        list-style: none;
-        padding: 0;
-        display: flex; /* Aplica um layout flexível */
-        justify-content: left; /* Alinha os itens horizontalmente no centro */
-        align-items: center; /* Alinha os itens verticalmente no centro */
-        margin-top: 20px; /* Adiciona margem acima das imagens */
-    }
-    
-    .icone li {
-        
-        margin: 0 20px; /* Adiciona margem entre os itens */
-        max-width: 40px;
-    }
-    </style>
-    </section>
-    <section>
-        <h2><strong>Sistema desktop de cadatro de produdos</strong></h2>
-        <p> <br> Sitema de desktop com as operações crud de insert e select</p>
-
-        <a href="https://github.com/LucasLeitche/pscUAM"><strong>link do repositorio do github</strong></a>
-        
-               <ul class="icone">  
-            <li>
+        <section class="section"> 
+            <h3>Sistema desktop de cadatro de produdos</h3>
+                <p>Sitema de Desktop com as operações Crud - Insert e Select</p>
+                <a class="link" href="https://github.com/LucasLeitche/pscUAM">link do repositorio do github</a>            
+            <div class="container-icon">  
                 <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-64.png">
-            </li>                 
-            <li>
                 <img src="https://cdn2.iconfinder.com/data/icons/mix-color-5/100/Mix_color_5__dwg-64.png" alt="icone html">
-            </li>
-           
-        </ul>
-    </section>
-    <style>
-         .icone {
-        height: 150px;
-        list-style: none;
-        padding: 0;
-        display: flex; /* Aplica um layout flexível */
-        justify-content: left; /* Alinha os itens horizontalmente no centro */
-        align-items: center; /* Alinha os itens verticalmente no centro */
-        margin-top: 20px; /* Adiciona margem acima das imagens */
-    }
-    
-    .icone li {
-        
-        margin: 0 20px; /* Adiciona margem entre os itens */
-        max-width: 40px;
-    }
-    .footer{
-        background-color:#333333 ;
-         margin-top: 2rem;
-        padding: 1rem;
-        text-align: center; 
-    }
-    </style>
-    </section>
-       
-    </div>
+            </div> 
+        </section>
+    </main>
     <footer class="footer">
         <p class="copyright">&copy; Copyright Thiago Casella</p>
     </footer>
