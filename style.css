@@ -74,11 +74,25 @@ body {
     width: 70%;
 }
 
+.section {
+    display: grid;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 70%;
+}
 
 .container {
    display: flex;
    flex-direction: column;
    justify-content: center;
+}
+
+.container- {
+    display: flex;
+    flex-direction: column;
 }
 
 .ul {
@@ -103,6 +117,16 @@ body {
     transform: scale(1.1);
 }
 
+.img-icon {
+    width: 3rem;
+    padding: 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--cor-quartenaria);
+}
+
 .p {
    line-height: 1.5rem;
 }
@@ -113,8 +137,3 @@ body {
     padding: 1rem;
     text-align: center;
 }
-.container-main{
-font-size: 10px;
-text-align: center;
-}
-
