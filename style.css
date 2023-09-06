@@ -12,7 +12,13 @@
     	--cor-quartenaria: #8EAAFB;
 	--font-primaria: 'Roboto', sans-serif;
 }
-
+.two-column-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define duas colunas de largura igual */
+    grid-gap: 10px; /* Espaçamento entre as colunas e as linhas */
+  }
 body {
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
