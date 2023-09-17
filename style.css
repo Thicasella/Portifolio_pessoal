@@ -51,6 +51,7 @@ body {
     background-color: var(--cor-terciaria);
     text-align: center;
     padding: 1.5rem 0;
+   
 }
 
 .nav-link {
@@ -112,10 +113,17 @@ body {
     padding: 2rem;
     line-height: 1.5rem;
 }
+.curso_nhem{
+    display: flex;
+    margin-right: 100px;
+    padding: 2rem;
+    line-height: 1.5rem;
+    
+}
 
 .img-main {
     border-radius: 10rem;
-    width: 15rem;
+    width: 8rem;
     padding: 1rem;
 }
 
