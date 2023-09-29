@@ -71,6 +71,19 @@ body {
     align-items: center;
     gap: 3rem;
 }
+.baixar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    padding: 1rem;
+    width: 70%;
+    list-style: none; /* Remove o ponto de lista */
+    margin-right: 25px;
+}
+
+  
+
 
 .section-main {
     display: flex;
